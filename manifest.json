@@ -1,0 +1,9 @@
+{
+  "id": "pic2md",
+  "name": "Pic2Md - 截图转Markdown",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "将截图通过 AI 视觉模型转换为 Obsidian 兼容的 Markdown 格式",
+  "author": "pic2md",
+  "isDesktopOnly": false
+}

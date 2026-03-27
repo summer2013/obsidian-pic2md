@@ -1,0 +1,9 @@
+# Local Obsidian plugin data (never commit — may contain API keys)
+data.json
+
+.DS_Store
+Thumbs.db
+
+# If you later add a TypeScript build
+node_modules/
+dist/
