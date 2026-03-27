@@ -1,0 +1,65 @@
+/* ===== Image Picker Modal ===== */
+.pic2md-picker-modal .modal-content {
+  padding: 0 16px 16px;
+}
+.pic2md-drop-zone {
+  border: 2.5px dashed var(--background-modifier-border);
+  border-radius: 14px;
+  padding: 44px 20px 28px;
+  text-align: center;
+  transition: all 0.2s ease;
+  margin: 12px 0 8px;
+  cursor: default;
+}
+.pic2md-drop-zone:hover {
+  border-color: var(--interactive-accent);
+  background: var(--background-modifier-hover);
+}
+.pic2md-drag-over {
+  border-color: var(--interactive-accent) !important;
+  background: var(--background-modifier-active-hover) !important;
+  transform: scale(1.01);
+}
+.pic2md-drop-icon { font-size: 52px; margin-bottom: 10px; line-height: 1; }
+.pic2md-hint { color: var(--text-muted); font-size: 0.85em; margin-top: 2px; }
+.pic2md-browse-btn { margin-top: 14px !important; }
+
+/* ===== Preview Modal ===== */
+.pic2md-preview-modal { width: 90vw; max-width: 780px; }
+.pic2md-tabs {
+  display: flex; gap: 4px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  margin: 8px 0 12px;
+}
+.pic2md-tab {
+  padding: 5px 18px; cursor: pointer;
+  background: none; border: none;
+  border-bottom: 2.5px solid transparent;
+  color: var(--text-muted); font-size: 0.95em;
+}
+.pic2md-tab.active {
+  color: var(--text-normal);
+  border-bottom-color: var(--interactive-accent);
+}
+.pic2md-preview-area,
+.pic2md-source-area {
+  max-height: 58vh; overflow-y: auto;
+  margin-bottom: 14px;
+}
+.pic2md-preview-area {
+  padding: 14px 16px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+}
+.pic2md-source {
+  white-space: pre-wrap; word-break: break-all;
+  padding: 14px 16px;
+  background: var(--background-secondary);
+  border-radius: 8px; font-size: 0.84em;
+  user-select: all;
+}
+.pic2md-btn-row {
+  display: flex; gap: 8px;
+  justify-content: flex-end;
+  padding-top: 6px;
+}
