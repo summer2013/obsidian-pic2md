@@ -18,12 +18,6 @@
 - 可选在结果末尾附加原图引用（仅对库内/行内图片转换生效，本地文件导入不会附加）
 - 内置连接测试按钮（1x1 图片探活）
 
-  
-
-
-https://github.com/user-attachments/assets/7497a2ce-8d12-4400-89c3-7527cc89d5fa
-
-
 
 
 ## 安装
@@ -51,6 +45,9 @@ https://github.com/user-attachments/assets/7497a2ce-8d12-4400-89c3-7527cc89d5fa
    - `从剪贴板截图转 Markdown`
    - `选择图片文件转 Markdown`
    - `从剪贴板截图创建新笔记`
+  
+https://github.com/user-attachments/assets/7497a2ce-8d12-4400-89c3-7527cc89d5fa
+
 
 ## 配置说明
 
