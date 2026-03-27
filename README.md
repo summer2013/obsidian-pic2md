@@ -34,6 +34,7 @@ https://github.com/user-attachments/assets/7497a2ce-8d12-4400-89c3-7527cc89d5fa
 
 - `manifest.json`
 - `main.js`
+- `style.css`
 
 然后在 Obsidian 中：
 
